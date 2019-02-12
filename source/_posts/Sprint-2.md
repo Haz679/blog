@@ -1,7 +1,7 @@
 ---
 title: Sprint 2 Mid Week
 ---
-![][/Users/harrylouskos/Desktop/sc1]
+![this image](/Users/harrylouskos/Desktop/sc1)
 
 ## Ethical hacking on stakeholders
 
