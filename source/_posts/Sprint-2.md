@@ -25,3 +25,13 @@ Hence such a code provides peace of mind to the stakeholders themselves that any
 - http://panmore.com/ethical-hacking-code-of-ethics-security-risk-issues
 - https://www.computerhope.com/jargon/e/ethihack.htm
 
+## Bug Bounties on stakeholders
+Bug bounty allow security teams to earn a sum of money for a bug that is found in an organisation's website. This bounty encourages persistance and hard work in the search, futureproofing the company from future attacks. Such a program can be an issue as bugs may be disclosed to the public on purpose, exposing data and other sensitive information unbenownst to the componay and likewise to their stakeholders.
+
+A bug bounty program will have a scope in place
+
+A scope states the type of the bugs to be found and where the hacker can poke and probe. It will also include a respobsible disclosure statement as well as the reward for finding certain bugs
+
+# Bibliography
+- https://www.bugcrowd.com/the-importance-of-scope-bug-bounty-hunter-methodology/
+- https://www.hackerone.com/disclosure-guidelines
