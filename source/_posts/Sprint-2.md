@@ -21,7 +21,7 @@ In a simple example, the code would read like this:
 Hence such a code provides peace of mind to the stakeholders themselves that any portion of the company they own or data that the company posesses, such as investments for Superannuation and banking to health records are protected by law.  
 
 
-# Bibliography - to be adjusted
+### Bibliography - to be adjusted
 - http://panmore.com/ethical-hacking-code-of-ethics-security-risk-issues
 - https://www.computerhope.com/jargon/e/ethihack.htm
 
@@ -30,8 +30,11 @@ Bug bounty allow security teams to earn a sum of money for a bug that is found i
 
 A bug bounty program will have a scope in place
 
-A scope states the type of the bugs to be found and where the hacker can poke and probe. It will also include a respobsible disclosure statement as well as the reward for finding certain bugs
+A scope states the type of the bugs to be found and where the hacker can poke and probe. It will also include a respobsible disclosure statement as well as the reward for finding certain bugs. The responsible disclosure affects both the finders and security teams alike and prevents either party from misconduct such as giving away sensitive information or not acting to improve security when a bug has been found
 
-# Bibliography
+### Bibliography
 - https://www.bugcrowd.com/the-importance-of-scope-bug-bounty-hunter-methodology/
 - https://www.hackerone.com/disclosure-guidelines
+
+## Test Web Apps under RDP
+Web app hacking requires a plethora of knowldge with regards to how the web works, its protocols, the OSI model and the respective tools that are used to break in. Under a respoonsible disclosure program, the exloits that are unveiled and broken using such tools must not be distributed openly to the public so as to make the information a vector of attack in the future
