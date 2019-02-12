@@ -2,7 +2,7 @@
 title: Sprint 2 Mid Week
 ---
 
-## Ethical hacking on stake holders
+## Ethical hacking on stakeholders
 
 Ethical hacking is the means of penetrating into the network of an organisation for the purpose of exploiting vulnerabilities under the legal consent of the hiring organisation. This in essence provides the organisation with the peace of mind that their network will be less open to outside attackers that would exploit these same vulnerabilities for their own benefit as well as the embarrassment of the victim
 
