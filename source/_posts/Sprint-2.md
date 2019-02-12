@@ -21,3 +21,7 @@ In a simple example, the code would read like this:
 Hence such a code provides peace of mind to the stakeholders themselves that any portion of the company they own or data that the company posesses, such as investments for Superannuation and banking to health records are protected by law.  
 
 
+# Bibliography - to be adjusted
+http://panmore.com/ethical-hacking-code-of-ethics-security-risk-issues
+https://www.computerhope.com/jargon/e/ethihack.htm
+
