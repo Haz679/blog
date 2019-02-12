@@ -22,6 +22,6 @@ Hence such a code provides peace of mind to the stakeholders themselves that any
 
 
 # Bibliography - to be adjusted
-http://panmore.com/ethical-hacking-code-of-ethics-security-risk-issues
-https://www.computerhope.com/jargon/e/ethihack.htm
+- http://panmore.com/ethical-hacking-code-of-ethics-security-risk-issues
+- https://www.computerhope.com/jargon/e/ethihack.htm
 
