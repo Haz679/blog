@@ -46,10 +46,24 @@ We were tasked to research an XSS attack and find a common solution to that type
 
 
 # Problem Statement
-Company XYZ is currently hosting multiple web apps to run different customer portals. Howwever, a lack of security knowledge means the compny is unable to properly train their staff on the dangers of and threats that surround the web.
+Company XYZ is currently hosting multiple web apps to run different customer portals. However, a lack of security knowledge means the compny is unable to properly train their staff on the dangers of and threats that surround the web.
 
 To improve our web hacking skills, were given an array of deliberately vulnerable web apps. Of these I chose to explore Web for Pentester and Natas. In the past, I've gone through Bandit, another wargame hosted by Overthewire, the same site that hosts Natas. I figured that my prior experience would help to solve Natas, I seemed to bit off more than I can chew.
 
 Initially going through Natas for the first time, I reached a level that required the use of an HTTP proxy, most notably Burp Suite, which in itself was one the many tools mentioned in Luke's talk. In essence, any level afterwards I had trouble in seeing where to go or what to do. To solve this, I spent time looking at writeups. These are the solutions that have been posted by other users during that attempt to solve the challenges. These helped a lot as it allowed me to put myself in their mindset, empathising the methodolgy. As Luke stated, "it's not what you do, it's how you do it", in that there are multiple ways to traverse the web app.
+
+Natas 4 seemed interesting to a hacking rookie such as myself:
+1) I was presented with a page that says "Access dissallowed"
+2) Looking at it I had no idea where to go or what to look for
+3) A quick search for the writeup, I discovered it required the use of a http proxy, in this case Burp Suite to capture the request in the middle of transmission
+4) The challenge required that the packet be captured and the URL to be modified to allow the user to appear as if they were accessing the page from http://natas5.natas.labs.overthewire.org/
+
+It was interesting to see how simple it is to execute such as attack
+
+Since I felt I didn't have a clue about the later levels, I continued reading the writeups of the later levels, reading further about the differing attack vectors that are required to be exploited. PHP seems to be heavily used as a vulnerable scripting language in these challenges. To my knowledge, real life filters such as helmet do exist to protect against open gaps in such code.
+
+Whilst limited in scale, these challenges outline the basic yet dangerous vulnerabilties that exist in industry that can be used as a form of education to mitigate such attacks. As they are mostly attacker-oriented, the opposite approach would need to be taken into account, that is understanding defensive methods/software that are designed to protect against the vectors that are put on display.
+
+This research ties to SLO 2: Apply design thinking to respond to a defines or newly identifies problem.
 
 ![burp suite](img/burp.png)
