@@ -21,7 +21,7 @@ In a simple example, the code would read like this:
 Hence such a code provides peace of mind to the stakeholders themselves that any portion of the company they own or data that the company posesses, such as investments for Superannuation and banking to health records are protected by law.  
 
 
-### Bibliography - to be adjusted
+### Bibliography
 - Panmore Institute. (2019). Ethical Hacking Code of Ethics: Security, Risk & Issues - Panmore Institute. [online] Available at: http://panmore.com/ethical-hacking-code-of-ethics-security-risk-issues [Accessed 12 Feb. 2019].
 - Computerhope.com. (2019). What is Ethical Hacking?. [online] Available at: https://www.computerhope.com/jargon/e/ethihack.htm [Accessed 12 Feb. 2019].
 
@@ -42,4 +42,12 @@ Web app hacking requires a plethora of knowldge with regards to how the web work
 ## Research Task - XSS
 The studio was given a lecture by CSEC member Luke Fuehrer. During the lecture he covered the history of web applications throughout the development of the internet. This was alongside the need to provide improved security to such applications as the amount of data that organisations were handling was expanding over time. The security vulnerability that he covered was Cross-site scripting, or XSS for short. This is essentially the exploitation of the javascript that runs in the background of a web application for malicious means on both server-side and client-side operations. He explained the 3 main types of XSS attacks and how they work. One of the take home messages that he wished to implant into his audience was that once you know how to mitigate the attack, as a student you now know the methods with which you can use the execute the attack without detection. It was also mentioned that it's not what you do, but how you do it. It is simply a fallacy to try and know everything, however once you seen a common pattern, you are reminded of a previous exploit from a past learning experience.
 
-We were tasked to research an XSS attack and find a common solution to that type of attack. I managed to find am attack that involved ebay from 2017. This involved redirecting the user to a spoofed site. An attacker would use a PHP script to steal the credentials of the user
+We were tasked to research an XSS attack and find a common solution to that type of attack. I managed to find am attack that involved ebay from 2017. This involved redirecting the user to a spoofed site. An attacker would use a PHP script to steal the credentials of the user. These credentials would then be sold off for a cost
+
+
+# Problem Statement
+Company XYZ is currently hosting multiple web apps to run different customer portals. Howwever, a lack of security knowledge means the compny is unable to properly train their staff on the dangers of and threats that surround the web.
+
+To improve our web hacking skills, were given an array of deliberately vulnerable web apps. Of these I chose to explore Web for Pentester and Natas. In the past, I've gone through Bandit, another wargame hosted by Overthewire, the same site that hosts Natas. I figured that my prior experience would help to solve Natas, I seemed to bit off more than I can chew.
+
+Initially going through Natas for the first time, I reached a level that required the use of an HTTP proxy, most notably Burp Suite, which in itself was one the many tools mentioned in Luke's talk. In essence, any level afterwards I had trouble in seeing where to go or what to do. To solve this, I spent time looking at writeups. These are the solutions that have been posted by other users during that attempt to solve the challenges. These helped a lot as it allowed me to put myself in their mindset, empathising the methodolgy. As Luke stated, "it's not what you do, it's how you do it", in that there are multiple ways to traverse the web app.
