@@ -74,4 +74,17 @@ Whilst limited in scale, these challenges outline the basic yet dangerous vulner
 
 This research ties to SLO 2: Apply design thinking to respond to a defines or newly identifies problem.
 
+##Friday Free-for-all
+Speaking to Riley, whilst he did not have a 
+
+Website
+
+Challenges
+
+BY next week, minimum req
+bandit 30
+natas 15
+fml
+
+
 
