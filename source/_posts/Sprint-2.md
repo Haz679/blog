@@ -1,5 +1,5 @@
 ---
-title: Sprint 2 Mid Week
+title: Sprint 2
 ---
 
 ## Ethical hacking on stakeholders
