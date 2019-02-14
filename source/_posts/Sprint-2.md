@@ -54,10 +54,17 @@ Initially going through Natas for the first time, I reached a level that require
 
 Natas 4 seemed interesting to a hacking rookie such as myself:
 1) I was presented with a page that says "Access dissallowed"
-![burp suite](img/.png)
+
+![burp suite](img/natas4.1.png)
+
 2) Looking at it I had no idea where to go or what to look for
 3) A quick search for the writeup, I discovered it required the use of a http proxy, in this case Burp Suite to capture the request in the middle of transmission
+
+![burp suite](img/burp.png)
+
 4) The challenge required that the packet be captured and the URL to be modified to allow the user to appear as if they were accessing the page from http://natas5.natas.labs.overthewire.org/
+
+![burp suite](img/natas4.png)
 
 It was interesting to see how simple it is to execute such as attack
 
@@ -67,4 +74,4 @@ Whilst limited in scale, these challenges outline the basic yet dangerous vulner
 
 This research ties to SLO 2: Apply design thinking to respond to a defines or newly identifies problem.
 
-![burp suite](img/burp.png)
+
