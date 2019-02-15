@@ -86,5 +86,7 @@ bandit 30
 natas 15
 fml
 
+Confess that you haven't done one of the SLO's
+
 
 
