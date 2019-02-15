@@ -75,7 +75,7 @@ Whilst limited in scale, these challenges outline the basic yet dangerous vulner
 This research ties to SLO 2: Apply design thinking to respond to a defines or newly identifies problem.
 
 ##Friday Free-for-all
-Speaking to Riley, whilst he did not have a 
+Speaking to Riley, whilst he did not have a --> SLO 4,5
 
 Website
 
@@ -87,6 +87,11 @@ natas 15
 fml
 
 Confess that you haven't done one of the SLO's
+
+Add presentation slides into sprint
+
+Problem statement - one rhetorical question - web app security today (Sprint 2 Topic)
+Criteria of qproblem statement shown through breaking into box
 
 
 
