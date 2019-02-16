@@ -64,9 +64,9 @@ Natas 4 seemed interesting to a hacking rookie such as myself:
 
 4) The challenge required that the packet be captured and the URL to be modified to allow the user to appear as if they were accessing the page from http://natas5.natas.labs.overthewire.org/
 
-``` md
+
 ![success](img/natas4.png)
-```
+
 
 
 It was interesting to see how simple it is to execute such as attack
@@ -95,7 +95,9 @@ This file be subsequently empty, so it could be deleted later on:
 
 Images can than be referenced in the markdown file as follows:
 
+``` md
 ![<comment>](<path to image>)
+```
 
 One of the current unsolved issues I do have though are that the posts don't seem to update independent to one another, and thus yield the same timestamp on them. As a bonus, I am still yet to figure out how to add new links on the splash page that would allow to separate different topics.
 
