@@ -64,7 +64,10 @@ Natas 4 seemed interesting to a hacking rookie such as myself:
 
 4) The challenge required that the packet be captured and the URL to be modified to allow the user to appear as if they were accessing the page from http://natas5.natas.labs.overthewire.org/
 
+``` md
 ![success](img/natas4.png)
+```
+
 
 It was interesting to see how simple it is to execute such as attack
 
