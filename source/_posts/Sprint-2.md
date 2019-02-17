@@ -156,8 +156,6 @@ Half way into the studio and time management seems to be the toughest challenge 
 
 
 
-Problem statement - one rhetorical question - web app security today (Sprint 2 Topic)
-Criteria of qproblem statement shown through breaking into box
 
 
 
