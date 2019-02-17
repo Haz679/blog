@@ -62,6 +62,9 @@ Sanitising data - removing unwanted characters such as utilising filters such as
 ## Bibliography
 Mutton, P, 2017, Hackers still exploiting eBay’s stored XSS vulnerabilities in 2017, viewed 13 February, <https://news.netcraft.com/archives/2017/02/17/hackers-still-exploiting-ebays-stored-xss-vulnerabilities-in-2017.html>
 
+https://www.checkmarx.com/2017/10/09/3-ways-prevent-xss/
+https://www.troyhunt.com/understanding-xss-input-sanitisation/
+https://helmetjs.github.io/docs/xss-filter/
 
 # Problem Statement
 Company XYZ is currently hosting multiple web apps to run different customer portals. However, a lack of security knowledge means the compny is unable to properly train their staff on the dangers of and threats that surround the web.
