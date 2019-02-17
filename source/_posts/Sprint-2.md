@@ -104,7 +104,17 @@ This research ties to SLO 2: Apply design thinking to respond to a defines or ne
 Speaking to Riley, i gained a valuable insight into his progression into the subject. At current, he had solved a HTB challenge that seemed far beyond what I have taught a rookie such as myself, despite him admitting being 'very new' to the process. The challenge for him seemed to be time since he mentioned it took him around 2 hours to research prior to approximately 3-4 to execute the attack, which for one challenge, is a pretty long time. In analysis, there were definitely some useful skills that he would've picked up in the process including changing permissions, privilege escalation and some scripting. This collaboration link to SLO 4 and 5 because ...
 
 ## Website
-This week was a challenge in trying to get the website up on time. I attempted many a time with hugo and github pages to no avail. I then attempted jekyll, once again, no success. I was able to get the site running locally, however once loaded to the custom domain, it was unable to load. In my time of need I contacted Darshil whom recommended running hexo on netlify. Luckily he was kind enough to help me with the setup. With a few DNS tweaks, the site was up and running. Netlify is brilliant as everything is run though github. Once changes to files are committed, netlify automatically updates the changes and pushes them to the site. Initially, I thought that posts needed to be made via the cli using a specific command, however netlify allows the direct creation of markdown files so that assuming everything is saved in the correct folder, the pages render automatically.
+This week was a challenge in trying to get the website up on time. I attempted many a time with hugo and github pages to no avail. I then attempted jekyll, once again, no success. I was able to get the site running locally, however once loaded to the custom domain, it was unable to load. In my time of need I contacted Darshil whom recommended running hexo on netlify. Luckily he was kind enough to help me with the setup. With a few DNS tweaks, the site was up and running. 
+
+![Domain Information](img/Domain Information.png)
+
+Netlify is brilliant as everything is run though github. 
+
+![Repository](img/Repository.png)
+
+Once changes to files are committed, netlify automatically updates the changes and pushes them to the site. Initially, I thought that posts needed to be made via the cli using a specific command, however netlify allows the direct creation of markdown files so that assuming everything is saved in the correct folder, the pages render automatically.
+
+![Site Details](img/Site Details.png)
 
 In terms of issues that I had with the site, the main one was actually trying to figure out how to get images to render on the page. The main solution that seemed to roam the net was trying to get the asset folder to update upon post creation. This could be done through one of the parameters in the config file. Since this wasn't the case, I managed my own solution to the problem. All that had to be done was a new folder had to created in the source directory to store images, even that wasn't straight forward either. The process is as follows:
 1)Create file
@@ -122,7 +132,11 @@ Images can than be referenced in the markdown file as follows:
 ![<comment>](<path to image>)
 ```
 
+![Image Folder](img/Image Folder.png)
+
 One of the current unsolved issues I do have though are that the posts don't seem to update independent to one another, and thus yield the same timestamp on them. As a bonus, I am still yet to figure out how to add new links on the splash page that would allow to separate different topics.
+
+![Running Site](img/Running Site.png)
 
 
 ## Challenges
