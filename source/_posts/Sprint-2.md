@@ -22,8 +22,8 @@ Hence such a code provides peace of mind to the stakeholders themselves that any
 
 
 ### Bibliography
-- Panmore Institute. (2019). Ethical Hacking Code of Ethics: Security, Risk & Issues - Panmore Institute. [online] Available at: http://panmore.com/ethical-hacking-code-of-ethics-security-risk-issues [Accessed 12 Feb. 2019].
-- Computerhope.com. (2019). What is Ethical Hacking?. [online] Available at: https://www.computerhope.com/jargon/e/ethihack.htm [Accessed 12 Feb. 2019].
+- Panmore Institute, 2019. Ethical Hacking Code of Ethics: Security, Risk & Issues - Panmore Institute, accessed 12 Feb 2019, <http://panmore.com/ethical-hacking-code-of-ethics-security-risk-issues>
+- Computerhope.com, 2019). What is Ethical Hacking?. accessed 12 Feb 2019, <https://www.computerhope.com/jargon/e/ethihack.htm>
 
 ## Bug Bounties on stakeholders
 Bug bounty allow security teams to earn a sum of money for a bug that is found in an organisation's website. This bounty encourages persistance and hard work in the search, futureproofing the company from future attacks. Such a program can be an issue as bugs may be disclosed to the public on purpose, exposing data and other sensitive information unbenownst to the componay and likewise to their stakeholders.
@@ -33,8 +33,8 @@ A bug bounty program will have a scope in place
 A scope states the type of the bugs to be found and where the hacker can poke and probe. It will also include a respobsible disclosure statement as well as the reward for finding certain bugs. The responsible disclosure affects both the finders and security teams alike and prevents either party from misconduct such as giving away sensitive information or not acting to improve security when a bug has been found
 
 ### Bibliography
-- Houston, S. (2019). The Importance of Scope - Bug Bounty Hunter Methodology | Bugcrowd. [online] Bugcrowd. Available at: https://www.bugcrowd.com/the-importance-of-scope-bug-bounty-hunter-methodology/ [Accessed 12 Feb. 2019].
-- HackerOne. (2019). Vulnerability Disclosure - Guidelines Process & Programs | HackerOne. [online] Available at: https://www.hackerone.com/disclosure-guidelines [Accessed 12 Feb. 2019].
+- Houston, S., 2019, The Importance of Scope - Bug Bounty Hunter Methodology,  viewed 12 Feb 2019. <https://www.bugcrowd.com/the-importance-of-scope-bug-bounty-hunter-methodology/>
+- HackerOne. (2019). Vulnerability Disclosure - Guidelines Process & Programs, viewed 12 Feb. 2019, <https://www.hackerone.com/disclosure-guidelines> 
 
 ## Test Web Apps under RDP
 Web app hacking requires a plethora of knowldge with regards to how the web works, its protocols, the OSI model and the respective tools that are used to break in. Under a responsible disclosure program, the exloits that are unveiled and broken using such tools must not be distributed openly to the public so as to make the information a vector of attack in the future
@@ -44,7 +44,7 @@ The studio was given a lecture by CSEC member Luke Fuehrer. During the lecture h
 
 We were tasked to research an XSS attack and find a common solution to that type of attack. I managed to find am attack that involved ebay from 2017. This involved redirecting the user to a spoofed site. An attacker would use a PHP script to steal the credentials of the user. These credentials would then be sold off for a cost.
 
-The atack would forego as follows:
+The atack would execute as follows:
 1) User would click on listing which redirected the user to a page that hosted malicious Javascript injected by the atacker
 This script executes as the page is loaded so it is practically unseen by the user, whom is redirected again to a spoofed login form.
 2) When the user inputs their credentials, they are transmitted to a PHP script. Once received, the user is redirected to a genuine eBay page, stating the listing has been removed. Unbenownst to the user, these credentials have been stolen
@@ -60,11 +60,13 @@ Reflected XSS can be avoided in a relatively simple manner:
 - Sanitising data - removing unwanted characters such as utilising filters such as helmet
 
 ## Bibliography
-Mutton, P, 2017, Hackers still exploiting eBay’s stored XSS vulnerabilities in 2017, viewed 13 February, <https://news.netcraft.com/archives/2017/02/17/hackers-still-exploiting-ebays-stored-xss-vulnerabilities-in-2017.html>
+- Mutton, P, 2017, Hackers still exploiting eBay’s stored XSS vulnerabilities in 2017, viewed 13 February, <https://news.netcraft.com/archives/2017/02/17/hackers-still-exploiting-ebays-stored-xss-vulnerabilities-in-2017.html>
 
-https://www.checkmarx.com/2017/10/09/3-ways-prevent-xss/
-https://www.troyhunt.com/understanding-xss-input-sanitisation/
-https://helmetjs.github.io/docs/xss-filter/
+- Vonnegut, S, 2017, 3 ways to prevent XSS, viewed 16 Februrary 2019, <https://www.checkmarx.com/2017/10/09/3-ways-prevent-xss/>
+
+- Hunt, T, 2013, Understanding XSS – input sanitisation semantics and output encoding contexts, viewed 16 February 2019, <https://www.troyhunt.com/understanding-xss-input-sanitisation/>
+
+- Helmet, n.d., XSS Filter, viewed 16 February, <https://helmetjs.github.io/docs/xss-filter/>
 
 # Problem Statement
 Company XYZ is currently hosting multiple web apps to run different customer portals. However, a lack of security knowledge means the compny is unable to properly train their staff on the dangers of and threats that surround the web.
@@ -124,11 +126,13 @@ One of the current unsolved issues I do have though are that the posts don't see
 
 
 ## Challenges
+Half way into the studio and time management seems to be the toughest challenge thus far. It's one of the most common things that wil come up in the scrum/free-for-alls from not only me but also many others. I feel it's an issue with planning ahead as well as juggling between committments and just struggling to staying on task. Darsh has mentioned Google Keep, however, I haven't incorporated into my repertoire since I tend to find handwritten notes the best method of notetaking. 
 
+# Notes to remember for next week
 BY next week, minimum req
 bandit 30
 natas 15
-fml
+
 
 Confess that you haven't done one of the SLO's
 
