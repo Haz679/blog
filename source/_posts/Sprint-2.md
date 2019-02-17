@@ -116,7 +116,15 @@ Once changes to files are committed, netlify automatically updates the changes a
 
 ![Site Details](img/Site Details.png)
 
-In terms of issues that I had with the site, the main one was actually trying to figure out how to get images to render on the page. The main solution that seemed to roam the net was trying to get the asset folder to update upon post creation. This could be done through one of the parameters in the config file. Since this wasn't the case, I managed my own solution to the problem. All that had to be done was a new folder had to created in the source directory to store images, even that wasn't straight forward either. The process is as follows:
+In terms of issues that I had with the site, the main one was actually trying to figure out how to get images to render on the page. Below is a before and after of the site to demonstrate how netlify updates the page after committing the markdown file on github:
+
+![Before Committing](img/Before.png)
+
+![The markdown file before committing](img/md.png)
+
+![After Committing](img/After.png)
+
+The main solution that seemed to roam the net was trying to get the asset folder to update upon post creation. This could be done through one of the parameters in the config file. Since this wasn't the case, I managed my own solution to the problem. All that had to be done was a new folder had to created in the source directory to store images, even that wasn't straight forward either. The process is as follows:
 1)Create file
 2) Within name textbox, add name of folder followed by forward slash
 3) Within the new box, add a file name
