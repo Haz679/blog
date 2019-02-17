@@ -53,11 +53,11 @@ Unfortunately, based on the several sites I searched through, there doesn't seem
 
 # Prevention & Mitigation
 Reflected XSS can be avoided in a relatively simple manner:
-Vigilance
-Web Application Firewalls - block abnormal requests
-Escaping user input - ensuring data is secured before rendered to end user
-Validating Input (Whitelist and Blacklist) - ensure site is rendering correct data and preventing malicious data from harming the application
-Sanitising data - removing unwanted characters such as utilising filters such as helmet
+- Vigilance
+- Web Application Firewalls - block abnormal requests
+- Escaping user input - ensuring data is secured before rendered to end user
+- Validating Input (Whitelist and Blacklist) - ensure site is rendering correct data and preventing malicious data from harming the application
+- Sanitising data - removing unwanted characters such as utilising filters such as helmet
 
 ## Bibliography
 Mutton, P, 2017, Hackers still exploiting eBay’s stored XSS vulnerabilities in 2017, viewed 13 February, <https://news.netcraft.com/archives/2017/02/17/hackers-still-exploiting-ebays-stored-xss-vulnerabilities-in-2017.html>
