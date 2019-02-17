@@ -37,12 +37,30 @@ A scope states the type of the bugs to be found and where the hacker can poke an
 - HackerOne. (2019). Vulnerability Disclosure - Guidelines Process & Programs | HackerOne. [online] Available at: https://www.hackerone.com/disclosure-guidelines [Accessed 12 Feb. 2019].
 
 ## Test Web Apps under RDP
-Web app hacking requires a plethora of knowldge with regards to how the web works, its protocols, the OSI model and the respective tools that are used to break in. Under a respoonsible disclosure program, the exloits that are unveiled and broken using such tools must not be distributed openly to the public so as to make the information a vector of attack in the future
+Web app hacking requires a plethora of knowldge with regards to how the web works, its protocols, the OSI model and the respective tools that are used to break in. Under a responsible disclosure program, the exloits that are unveiled and broken using such tools must not be distributed openly to the public so as to make the information a vector of attack in the future
 
 ## Research Task - XSS
 The studio was given a lecture by CSEC member Luke Fuehrer. During the lecture he covered the history of web applications throughout the development of the internet. This was alongside the need to provide improved security to such applications as the amount of data that organisations were handling was expanding over time. The security vulnerability that he covered was Cross-site scripting, or XSS for short. This is essentially the exploitation of the javascript that runs in the background of a web application for malicious means on both server-side and client-side operations. He explained the 3 main types of XSS attacks and how they work. One of the take home messages that he wished to implant into his audience was that once you know how to mitigate the attack, as a student you now know the methods with which you can use the execute the attack without detection. It was also mentioned that it's not what you do, but how you do it. It is simply a fallacy to try and know everything, however once you seen a common pattern, you are reminded of a previous exploit from a past learning experience.
 
-We were tasked to research an XSS attack and find a common solution to that type of attack. I managed to find am attack that involved ebay from 2017. This involved redirecting the user to a spoofed site. An attacker would use a PHP script to steal the credentials of the user. These credentials would then be sold off for a cost
+We were tasked to research an XSS attack and find a common solution to that type of attack. I managed to find am attack that involved ebay from 2017. This involved redirecting the user to a spoofed site. An attacker would use a PHP script to steal the credentials of the user. These credentials would then be sold off for a cost.
+
+The atack would forego as follows:
+1) User would click on listing which redirected the user to a page that hosted malicious Javascript injected by the atacker
+This script executes as the page is loaded so it is practically unseen by the user, whom is redirected again to a spoofed login form.
+2) When the user inputs their credentials, they are transmitted to a PHP script. Once received, the user is redirected to a genuine eBay page, stating the listing has been removed. Unbenownst to the user, these credentials have been stolen
+
+Unfortunately, based on the several sites I searched through, there doesn't seem to be any exact figures as to how many accounts were compromised as a result of the vulnerability.
+
+# Prevention & Mitigation
+Reflected XSS can be avoided in a relatively simple manner:
+Vigilance
+Web Application Firewalls - block abnormal requests
+Escaping user input - ensuring data is secured before rendered to end user
+Validating Input (Whitelist and Blacklist) - ensure site is rendering correct data and preventing malicious data from harming the application
+Sanitising data - removing unwanted characters such as utilising filters such as helmet
+
+## Bibliography
+Mutton, P, 2017, Hackers still exploiting eBay’s stored XSS vulnerabilities in 2017, viewed 13 February, <https://news.netcraft.com/archives/2017/02/17/hackers-still-exploiting-ebays-stored-xss-vulnerabilities-in-2017.html>
 
 
 # Problem Statement
