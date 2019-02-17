@@ -146,19 +146,15 @@ One of the current unsolved issues I do have though are that the posts don't see
 
 ![Running Site](img/Running Site.png)
 
+## Bibliography
+- Github, n.d., viewed 13 February, <https://github.com/Haz679/blog/>
+- Netlify, n.d., viewed 13 Febrary, <https://app.netlify.com/sites/jolly-swanson-b9c845/settings/domain>
+
 
 ## Challenges
 Half way into the studio and time management seems to be the toughest challenge thus far. It's one of the most common things that wil come up in the scrum/free-for-alls from not only me but also many others. I feel it's an issue with planning ahead as well as juggling between committments and just struggling to staying on task. Darsh has mentioned Google Keep, however, I haven't incorporated into my repertoire since I tend to find handwritten notes the best method of notetaking. 
 
-# Notes to remember for next week
-BY next week, minimum req
-bandit 30
-natas 15
 
-
-Confess that you haven't done one of the SLO's
-
-Add presentation slides into sprint
 
 Problem statement - one rhetorical question - web app security today (Sprint 2 Topic)
 Criteria of qproblem statement shown through breaking into box
