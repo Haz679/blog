@@ -15,6 +15,9 @@ There are many tools to breaj the machine
 vuln will give you an ova, import to virtual box
 setup NAT network
 
+Attacker - 10.0.2.15
+Box - 10.0.2.4
+
 Assuming we are in the network and cant get past login
 From attackers machine:
 NMAP - ip addr
@@ -92,6 +95,12 @@ The listener must be up first before the script can be executed
 change 404 page to includea PHP reverse shell
 since we're admin, the 404 page can be changed tthrough the webpage
 point ip to 10.0.2.15 machine
+also point to transmit tp port 1234
+why?
+The server needs to poin to the attacker
+why is ther server trying to connect to the attacker?
+
+The reverse shell is  trying to  create a connection without having a direct way in
 
 
 upgrade shell - ropnop.com
@@ -100,6 +109,8 @@ not necessary but prettier
 to check if possible to escalate to root
 look at psswd and shadow
 use hashcat or John the Ripper to brute force
+
+tmux - terminal splitter
 
 
 
