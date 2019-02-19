@@ -129,9 +129,9 @@ John the Ripper is a free password cracker.
 
 It is used to used to execute 3 basic password attacks:
 
-Brute force: goes through every possible combination to find the solution
-Dictionary: a list of passwords. The tool will cross check the list with a possible match
-Rainbow: a rainbow table is a list of pre-computed hashes. Similar to a dictionary attack, the tool cross-checks with this list.
+- Brute force: goes through every possible combination to find the solution
+- Dictionary: a list of passwords. The tool will cross check the list with a possible match
+- Rainbow: a rainbow table is a list of pre-computed hashes. Similar to a dictionary attack, the tool cross-checks with this list.
 
 John requires that the file to crack is needed in a particular format. In a linux system, it is common to break the /etc/passwdd and /etc/shadow files where drsh ended on Monday's demo. We need to use the unshadow utility to convert the files into a text file:
 
