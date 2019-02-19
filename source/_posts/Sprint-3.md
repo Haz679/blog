@@ -123,7 +123,31 @@ tmux - terminal splitter
 
 # Scrum 3
 
-Deliverable 1
+Deliverable 1 - John the Ripper
+
+John the Ripper is a free password cracker. 
+
+It is used to used to execute 3 basic password attacks:
+
+Brute force: goes through every possible combination to find the solution
+Dictionary: a list of passwords. The tool will cross check the list with a possible match
+Rainbow: a rainbow table is a list of pre-computed hashes. Similar to a dictionary attack, the tool cross-checks with this list.
+
+John requires that the file to crack is needed in a particular format. In a linux system, it is common to break the /etc/passwdd and /etc/shadow files where drsh ended on Monday's demo. We need to use the unshadow utility to convert the files into a text file:
+
+```bash
+/usr/sbin/unshadow /etc/passwd /etc//shadow > ~/passwordstocrack.txt
+```
+
+to perform the crack:
+```bash
+/usr/sbin/john --wordlist=/usr/share/wordlists/rockyou.txt ~/passwordstocrack.txt
+```
+
+The above example was used directly from one of a website but I will do my best to explain the syntax.
+/usr/sbin/john - initiates JtR
+--wordlist=<path to list> - tells JtR to use a dictionary. In this case, the rockyou.txt file was used which is a list of common compromised passwords from the web.
+~/passwordstocrack.txt - the file containing of passwords for us to crack
 
 Deliverable 2
 
