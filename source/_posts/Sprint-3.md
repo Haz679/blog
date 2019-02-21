@@ -78,7 +78,7 @@ dirb <url> <path to wordlist (dictory of common dir names)>
   type in vtcsec
   
 From the dirb we discovered its a wordpress page - notoriously vulnerable
-wpscan is deesigned to specifically scan wordpress
+wpscan is designed to specifically scan wordpress
 
 Discovered user is admin admin
 
@@ -237,4 +237,19 @@ I discovered ippsec, a youtuber whom does walkthroughs for retired hack the box 
 
 I took a shot at raven2 to start off. The inital thought was to read through the walkthrough for raven1 and use that as a guide. However, I decided I'd use the skills that drsh displayed in his demo earlier in the week, as well as the methods from the deloitte team.
 
-In going through raven2, i quickly discovered that the network settings for virtualbox weren't set up properly. How I realised was that the services that appeared as part of the nmap scan didn't seem right. So once the settings were fixed, the scan yielded a cheeky http at port 80. By instinct i accessed the webpage and navigated my way through for a textbox or something sinister. One of the links was a blog, which directed me to a wordpress page. At this point I remembered that drsh used wpscan in his demo.
+In going through raven2, i quickly discovered that the network settings for virtualbox weren't set up properly. How I realised was that the services that appeared as part of the nmap scan didn't seem right. So once the settings were fixed, the scan yielded a cheeky http at port 80. By instinct i accessed the webpage and navigated my way through for a textbox or something sinister. One of the links was a blog, which directed me to a wordpress page. At this point I remembered that drsh used wpscan in his demo. In attempting to run:
+```bash
+wpscan --url 10.0.2.4/wordpress/ --wp-content-dir wp-content
+```
+the didn't quite yield anything interesting
+
+A quick scan of the raven2 walkthrough revealed that I WAS NOT EVEN CLOSE
+
+BUT
+
+I "skimmed" through the walkthrough for clues as to where the flags may be because i was losing patience.
+Turns out one of them was right under my nose. One of the results of the wpscan pointed to a directory with a few interesting directories. In the end, you get to a file called flag3.png, which sure enough, is actually the flag.
+
+Performed a nikto scan, saw a raven.local. Similar to what drsh did in his demo, I added raven.local in /etc/hosts
+
+A dirb scan reveals the possible directories. I discovered that /vendor/ yields further progress. One of the sub-directories had a timestamp that was noticable different to the others. Clicking on it, gives me the first flag.
