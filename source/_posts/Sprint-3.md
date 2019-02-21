@@ -253,3 +253,5 @@ Turns out one of them was right under my nose. One of the results of the wpscan 
 Performed a nikto scan, saw a raven.local. Similar to what drsh did in his demo, I added raven.local in /etc/hosts
 
 A dirb scan reveals the possible directories. I discovered that /vendor/ yields further progress. One of the sub-directories had a timestamp that was noticable different to the others. Clicking on it, gives me the first flag.
+
+At this point, I realised that moving forward meant researching more about privelage escalation and the moving through a machine. I feel like more walkthroughs and reaching out would greatly assist in this matter
