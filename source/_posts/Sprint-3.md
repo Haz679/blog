@@ -309,9 +309,14 @@ Turns out one of them was right under my nose. One of the results of the wpscan 
 ![](img/FLAG3.png)
 
 
-Performed a nikto scan, saw a raven.local. Similar to what drsh did in his demo, I added raven.local in /etc/hosts
+Performed a nikto scan, saw a raven.local. Similar to what drsh did in his demo, I added raven.local in /etc/hosts and pointed it the target ip.
 
 ![](img/nikto.png)
+
+Nikto is a perl-based recon tool used to detect web server vulnerabilities such as misconfigurations and outdated versions. It is by no means safe to use under an IDS as it is quite noisy. It does also return false positives as it doesn't execute the vulnerablities but rather checks to see if the server responds to known vulnerable URL's
+
+https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-vulnerabilities-for-any-website-using-nikto-0151729/ 21/2
+https://sectools.org/tool/nikto/ 21/2
 
 ![](img/raven-local-vim.png)
 
