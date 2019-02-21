@@ -123,7 +123,7 @@ tmux - terminal splitter
 
 # Scrum 3
 
-Deliverable 1 - John the Ripper
+# Deliverable 1 - John the Ripper
 
 John the Ripper is a free password cracker. 
 
@@ -229,5 +229,12 @@ use <path to module>
         >run
         strings <file>
         creds dumped
-        
-        
+
+# Friday Deliverable
+This was essentially my first big dive in attempting boxes. The skill of enumeration was my first wall and I was dedicated to break it simply by getting into walkthroughs and writeups.
+
+I discovered ippsec, a youtuber whom does walkthroughs for retired hack the box machines. After watching a few, I realised that the enumeration is essentially the same in terms of the tools used things to look for.
+
+I took a shot at raven2 to start off. The inital thought was to read through the walkthrough for raven1 and use that as a guide. However, I decided I'd use the skills that drsh displayed in his demo earlier in the week, as well as the methods from the deloitte team.
+
+In going through raven2, i quickly discovered that the network settings for virtualbox weren't set up properly. How I realised was that the services that appeared as part of the nmap scan didn't seem right. So once the settings were fixed, the scan yielded a cheeky http at port 80. By instinct i accessed the webpage and navigated my way through for a textbox or something sinister. One of the links was a blog, which directed me to a wordpress page. At this point I remembered that drsh used wpscan in his demo.
