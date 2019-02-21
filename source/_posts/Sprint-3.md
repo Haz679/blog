@@ -160,7 +160,7 @@ If both vms are on NAT, they should be able to interact
 
 What is Pentesting?
 Think like criminals
-advide clients on hoe to imporve security
+advide clients on how to imporve security
 art & science
 
 what do we do?
@@ -235,23 +235,105 @@ This was essentially my first big dive in attempting boxes. The skill of enumera
 
 I discovered ippsec, a youtuber whom does walkthroughs for retired hack the box machines. After watching a few, I realised that the enumeration is essentially the same in terms of the tools used things to look for.
 
+![](img/ippsec.png)
+
 I took a shot at raven2 to start off. The inital thought was to read through the walkthrough for raven1 and use that as a guide. However, I decided I'd use the skills that drsh displayed in his demo earlier in the week, as well as the methods from the deloitte team.
 
-In going through raven2, i quickly discovered that the network settings for virtualbox weren't set up properly. How I realised was that the services that appeared as part of the nmap scan didn't seem right. So once the settings were fixed, the scan yielded a cheeky http at port 80. By instinct i accessed the webpage and navigated my way through for a textbox or something sinister. One of the links was a blog, which directed me to a wordpress page. At this point I remembered that drsh used wpscan in his demo. In attempting to run:
+![](img/Raven1.png)
+
+![](img/login.png)
+
+![](img/nmap.png)
+
+![](img/netdiscover.png)
+
+![](img/port scan.png)
+
+
+
+
+
+In going through raven2, i quickly discovered that the network settings for virtualbox weren't set up properly as the services that appeared as part of the nmap scan didn't seem right. So once the settings were fixed, the scan yielded a cheeky http at port 80. 
+
+![](img/yep.png)
+
+![](img/nmap-post-settingschange.png)
+
+![](img/portscan-postchange.png)
+
+
+
+By instinct i accessed the webpage and navigated my way through for a textbox or something sinister. 
+
+![](img/webpage.png)
+
+
+One of the links was a blog, which directed me to a wordpress page. At this point I remembered that drsh used wpscan in his demo. In attempting to run:
 ```bash
 wpscan --url 10.0.2.4/wordpress/ --wp-content-dir wp-content
 ```
 the didn't quite yield anything interesting
 
+![](img/wpscan-command.png)
+
+
 A quick scan of the raven2 walkthrough revealed that I WAS NOT EVEN CLOSE
+
+I had hit a barrier by choosing one of the services that I didn't quite understand how to attack but just went for it anyway:
+
+![](img/xlmrpc.png)
+
+The webpage indicated that only POST requests were accepted. Me thinking this was going to lead to somewhere, I launched burp and intercepted the request. I stumbled upon a site that boasted loading the response with this:
+
+```bash
+<methodCall>
+<methodName>wp.getUsersBlogs</methodName>
+<params>
+<param><value>admin</value></param>
+<param><value>pass</value></param>
+</params>
+</methodCall>
+```
+In the end, this got me nowhere
+
+reference:
+https://medium.com/@the.bilal.rizwan/wordpress-xmlrpc-php-common-vulnerabilites-how-to-exploit-them-d8d3c8600b32 21/2
+
 
 BUT
 
 I "skimmed" through the walkthrough for clues as to where the flags may be because i was losing patience.
-Turns out one of them was right under my nose. One of the results of the wpscan pointed to a directory with a few interesting directories. In the end, you get to a file called flag3.png, which sure enough, is actually the flag.
+Turns out one of them was right under my nose. One of the results of the wpscan pointed to a directory with a few interesting directories. In the end, you get to a file called flag3.png, which sure enough, is actually the flag, WOO HOO!!
+
+
+![](img/FLAG3.png)
+
 
 Performed a nikto scan, saw a raven.local. Similar to what drsh did in his demo, I added raven.local in /etc/hosts
 
-A dirb scan reveals the possible directories. I discovered that /vendor/ yields further progress. One of the sub-directories had a timestamp that was noticable different to the others. Clicking on it, gives me the first flag.
+![](img/nikto.png)
 
-At this point, I realised that moving forward meant researching more about privelage escalation and the moving through a machine. I feel like more walkthroughs and reaching out would greatly assist in this matter
+![](img/raven-local-vim.png)
+
+
+
+A dirb scan reveals the possible directories. I discovered that /vendor/ yields further progress. 
+
+![](img/dirb.png)
+
+
+One of the sub-directories had a timestamp that was noticable different to the others. Clicking on it, gives me the first flag.
+
+![](img/PATH.png)
+
+
+![](img/flag1.png)
+
+
+At this point, I realised that moving forward meant researching more about privelage escalation.
+
+![](img/necro1.png)
+
+
+![](img/necro1.2.png)
+
