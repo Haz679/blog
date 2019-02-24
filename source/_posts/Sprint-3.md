@@ -125,7 +125,7 @@ tmux - terminal splitter
 We had no free-for-all on the wednesday due to the fact that the time was taken up by the team from Deloitte (see below for info)
 
 # Free-for-all 3
-On the Friday, I had the opportunity to talk to Corey, Cameron, and Brendan. Cameron attemped Kioptrix and utilised the Openfuck exploit to gain root. Unfortunately at the time of writing this I misplaced my meticulously written notes which had everything the guys did but in summation both Brendan and Corey were able to root a machine each. I definite challenge for all of them was getting the vm's to work. 
+On the Friday, I had the opportunity to talk to Corey, Cameron, and Brendan. Cameron attemped Kioptrix and utilised the Openfuck exploit to gain root as well as going through Pwnlab. Corey attempted legacy, a hack-the-box challenge and managed to use one exploit to gain root. He also attempted Bake, a machine based on directory traversal. Brendan went through hack-the-box, looked at the resources that were posted on the studio website as well as pwnlab. A definite challenge for all of them was getting the vm's to work.  
 
 # Deliverable 1 - John the Ripper
 
