@@ -316,7 +316,7 @@ The webpage indicated that only POST requests were accepted. Me thinking this wa
 In the end, this got me nowhere
 
 reference:
-https://medium.com/@the.bilal.rizwan/wordpress-xmlrpc-php-common-vulnerabilites-how-to-exploit-them-d8d3c8600b32 21/2
+Rizwan, B, 2018, Wordpress xmlrpc.php -common vulnerabilites & how to exploit them, viewed 21 February 2019, <https://medium.com/@the.bilal.rizwan/wordpress-xmlrpc-php-common-vulnerabilites-how-to-exploit-them-d8d3c8600b32>
 
 
 BUT
@@ -334,8 +334,8 @@ Performed a nikto scan, saw a raven.local. Similar to what drsh did in his demo,
 
 Nikto is a perl-based recon tool used to detect web server vulnerabilities such as misconfigurations and outdated versions. It is by no means safe to use under an IDS as it is quite noisy. It does also return false positives as it doesn't execute the vulnerablities but rather checks to see if the server responds to known vulnerable URL's
 
-https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-vulnerabilities-for-any-website-using-nikto-0151729/ 21/2
-https://sectools.org/tool/nikto/ 21/2
+Occupytheweb, 2019, ow to Find Vulnerabilities for Any Website Using Nikto, viewed 21 Febrary 2019, <https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-vulnerabilities-for-any-website-using-nikto-0151729/>
+Sectools, n.d, Nikto, viewed 21 February 2019, <https://sectools.org/tool/nikto/>
 
 ![](img/raven-local-vim.png)
 
@@ -364,8 +364,8 @@ At this point, I realised that moving forward meant researching more about prive
 # Research
 As recommended by Darshil, I continued to research several walkthroughs primarily from different vulnhub machines and retired Hack-the-Box attempts from Ippsec. The vulnhub machines showed potential as the steps taken were somewhat easy to understand. The HTB challenges on the other hand, in my opinion anyway were a massive jump and so I deterred from those and leaned towards boot2root.
 
-Matrix 1
-The collest thing about this one was the matrix style code
+## Matrix 1
+Matrix was a cool box as it introduced me to focusing on bruteforcing and shell breaking if you will. I chose to document this box in particular as it was the simplest to understand compared to the others I looked at (Moonraker and Bulldog). Below are my handwritten notes of how I articulated the box being broken.
 
 ![](img/scan0011.jpg)
 
@@ -374,4 +374,6 @@ The collest thing about this one was the matrix style code
 
 Colon, N, 2018, Matrix 1: A Vulnhub VM Walkthrough, viewed 24 Febraruy 2019, <https://medium.com/@nelsoncoln/matrix-1-a-vulnhub-vm-walkthrough-b8ee5d2b178a>
 
-Unfortunately my time mangement is still something to be desired. For some reason I find myself getting to this trans where I have no idea as what I'm doing simply because I have so sense of urgency or organisation. The best example was working towards this weeks presentation. It took me ages to figure out how to simply organsise the damn thing and it still didn't come out to standard and I'm hoping its enough to pass. In closing, I just have to read more and more, keep my eyes on the prize and don't mess it up., or try my best not to at least.
+# Final word
+
+Unfortunately my time management is still something to be desired. For some reason I find myself getting to this trans where I have no idea as to what I'm doing simply because I have so sense of urgency or organisation. The best example was working towards this weeks presentation. It took me ages to figure out how to simply organsise the damn thing and it still didn't come out to standard and I'm hoping its enough to pass. In closing, I just have to read more and more, keep my eyes on the prize and don't mess it up., or try my best not to at least.
