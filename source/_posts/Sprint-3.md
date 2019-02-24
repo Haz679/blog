@@ -1,7 +1,7 @@
 ---
 title: Sprint 3
 ---
-# FFA 1 - Monday
+# Free-for-all 1 - Monday
 
 Speaking to David and Frank, they seemed to have a solid grounding in the subject. David spoke about traversing the web app that the class was invited to break. There were three main findings as part of his talk:
 1) The Rest API is quite open and so through particular links he was able to find a list of user data UNENCRYPTED
@@ -9,6 +9,8 @@ Speaking to David and Frank, they seemed to have a solid grounding in the subjec
 3) invalidating a cookie on the login page reveals the server version. David was able to cross check the common vulnerabilities on Common Vulnerabilites and Exposures (CVE) for that particular version. Frank is working through Natas. This is probably best as it is expected that we reach bandit 30 and natas 15 by the end of today.
 
 # Monday Demo
+Darshil was able to generously donate his time to demonstrate the basic process of breaking into a vulnerable machine. He used Pentesting 1, a machine downloadble from vulnhub. Below are my notes on what he did, specific quotations from him and anyone else that made a contribution to the demo.
+
 "You cant hack what you cant see" - Darsh
 "enumerate, enumerate, enumaerate" - drsh
 There are many tools to breaj the machine
@@ -69,7 +71,7 @@ try curl:
 curl 10.0.2.4
 shows cource of webpage
 
-Directory enumaeration to see invisible directories
+Directory enumeration to see invisible directories
 dirb <url> <path to wordlist (dictory of common dir names)>
  in this case /usr/share/wordlists/dirb/common.txt
   
@@ -119,9 +121,11 @@ tmux - terminal splitter
   
   
   
-# Scrum 2
+# Free-for-all 2
+We had no free-for-all on the wednesday due to the fact that the time was taken up by the team from Deloitte (see below for info)
 
-# Scrum 3
+# Free-for-all 3
+On the Friday, I had the opportunity to talk to Corey, Cameron, and Brendan. Cameron attemped Kioptrix and utilised the Openfuck exploit to gain root. Unfortunately at the time of writing this I misplaced by meticulously written notes which had everything the guys did but in summation both brendand and Corey were able to root a machine each. I definite challenge for all of them was getting the vm's to work. 
 
 # Deliverable 1 - John the Ripper
 
@@ -148,6 +152,21 @@ The above example was used directly from one of a website but I will do my best 
 /usr/sbin/john - initiates JtR
 --wordlist=<path to list> - tells JtR to use a dictionary. In this case, the rockyou.txt file was used which is a list of common compromised passwords from the web.
 ~/passwordstocrack.txt - the file containing of passwords for us to crack
+        
+## Bibiography
+https://www.openwall.com/john/doc/MODES.shtml
+
+https://www.openwall.com/john/doc/
+
+https://www.openwall.com/john/doc/EXAMPLES.shtml
+
+http://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
+
+https://infosecaddicts.com/john-ripper/
+
+https://bytesoverbombs.io/cracking-everything-with-john-the-ripper-d434f0f6dc1c
+
+https://en.wikipedia.org/wiki/John_the_Ripper 
 
 Deliverable 2
 
