@@ -367,6 +367,11 @@ As recommended by Darshil, I continued to research several walkthroughs primaril
 Matrix 1
 The collest thing about this one was the matrix style code
 
+![](img/scan0011.jpg)
+
+![](img/scan0012.jpg)
+
+
 Colon, N, 2018, Matrix 1: A Vulnhub VM Walkthrough, viewed 24 Febraruy 2019, <https://medium.com/@nelsoncoln/matrix-1-a-vulnhub-vm-walkthrough-b8ee5d2b178a>
 
 Unfortunately my time mangement is still something to be desired. For some reason I find myself getting to this trans where I have no idea as what I'm doing simply because I have so sense of urgency or organisation. The best example was working towards this weeks presentation. It took me ages to figure out how to simply organsise the damn thing and it still didn't come out to standard and I'm hoping its enough to pass. In closing, I just have to read more and more, keep my eyes on the prize and don't mess it up., or try my best not to at least.
