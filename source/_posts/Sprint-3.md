@@ -34,7 +34,7 @@ nmap -sP 10.0.2.0/24 (ping scan)
 to enumerate:
 netdiscover - needs device and range
 
-netdiscover -i etho0 -r 10.0.2.0/24
+netdiscover -i eth0 -r 10.0.2.0/24
             <interface> <range>
   
 to find open ports:
@@ -125,7 +125,7 @@ tmux - terminal splitter
 We had no free-for-all on the wednesday due to the fact that the time was taken up by the team from Deloitte (see below for info)
 
 # Free-for-all 3
-On the Friday, I had the opportunity to talk to Corey, Cameron, and Brendan. Cameron attemped Kioptrix and utilised the Openfuck exploit to gain root. Unfortunately at the time of writing this I misplaced by meticulously written notes which had everything the guys did but in summation both brendand and Corey were able to root a machine each. I definite challenge for all of them was getting the vm's to work. 
+On the Friday, I had the opportunity to talk to Corey, Cameron, and Brendan. Cameron attemped Kioptrix and utilised the Openfuck exploit to gain root. Unfortunately at the time of writing this I misplaced my meticulously written notes which had everything the guys did but in summation both Brendan and Corey were able to root a machine each. I definite challenge for all of them was getting the vm's to work. 
 
 # Deliverable 1 - John the Ripper
 
@@ -154,7 +154,7 @@ The above example was used directly from one of a website but I will do my best 
 ~/passwordstocrack.txt - the file containing of passwords for us to crack
         
 ## Bibiography
-https://www.openwall.com/john/doc/MODES.shtml
+Openwall, 2019, John the Ripper's Cracking Modes, <https://www.openwall.com/john/doc/MODES.shtml>
 
 https://www.openwall.com/john/doc/
 
