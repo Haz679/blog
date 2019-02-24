@@ -154,26 +154,26 @@ The above example was used directly from one of a website but I will do my best 
 ~/passwordstocrack.txt - the file containing of passwords for us to crack
         
 ## Bibiography
-Openwall, 2019, John the Ripper's Cracking Modes, <https://www.openwall.com/john/doc/MODES.shtml>
+Openwall, 2019, John the Ripper's Cracking Modes, viewed 18 February 2019, <https://www.openwall.com/john/doc/MODES.shtml>
 
-https://www.openwall.com/john/doc/
+Openwall, 2019, John the Ripper password cracker, viewed 18 February 2019, <https://www.openwall.com/john/doc/>
 
-https://www.openwall.com/john/doc/EXAMPLES.shtml
+Openwall, 2019, John the Ripper usage examples, viewed 18 Februrary 2019, <https://www.openwall.com/john/doc/EXAMPLES.shtml>
 
-http://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
+Pentestmonkey, 2019, John the Ripper Hash Formats, viewed 18 February 2019, <http://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats>
 
-https://infosecaddicts.com/john-ripper/
+Oudy, H, 2017, What is John the Ripper?, viewed 28 February 2019, <https://infosecaddicts.com/john-ripper/>
 
-https://bytesoverbombs.io/cracking-everything-with-john-the-ripper-d434f0f6dc1c
+Bytes over Bombs, 2019, Cracking everyhting with John the Ripper, viewed 18 February, <https://bytesoverbombs.io/cracking-everything-with-john-the-ripper-d434f0f6dc1c>
 
-https://en.wikipedia.org/wiki/John_the_Ripper 
+Wikipedia, 2018, John the Ripper, viewed 18 February 2019, <https://en.wikipedia.org/wiki/John_the_Ripper> 
 
-Deliverable 2
 
-Deliverable 3
 
 
 # Wednesday Industry
+On Wednesday, the security team from Deloitte presented to the studio. Below is my personal notes but in summary, they introduced the concept of pentesting, outlined what they do including red teaming as well as the tools and techniques they employ. They also gave us a cool to box to break. This talk satisfied SLO 1 as it provided further insight into system vulnerabbilies and how to exploit them. This was demonstrated through an open hacking session where the studio was given the oppurtunity to break into their box with feedback from the team on progression.
+
 Deloitte
 If both vms are on NAT, they should be able to interact
 
@@ -213,7 +213,7 @@ They also mentioned hacking kiosks through navigating to a sight using a webpage
 Red Teaming
 breaking into a building
 
-Pentesting vs Red eaming
+Pentesting vs Red teaming
 Specific                Realistic
 Limited Scope           Relevent       
 Narrow focus            Readiness
@@ -361,3 +361,12 @@ At this point, I realised that moving forward meant researching more about prive
 
 ![](img/necro1.2.png)
 
+# Research
+As recommended by Darshil, I continued to research several walkthroughs primarily from different vulnhub machines and retired Hack-the-Box attempts from Ippsec. The vulnhub machines showed potential as the steps taken were somewhat easy to understand. The HTB challenges on the other hand, in my opinion anyway were a massive jump and so I deterred from those and leaned towards boot2root.
+
+Matrix 1
+The collest thing about this one was the matrix style code
+
+Colon, N, 2018, Matrix 1: A Vulnhub VM Walkthrough, viewed 24 Febraruy 2019, <https://medium.com/@nelsoncoln/matrix-1-a-vulnhub-vm-walkthrough-b8ee5d2b178a>
+
+Unfortunately my time mangement is still something to be desired. For some reason I find myself getting to this trans where I have no idea as what I'm doing simply because I have so sense of urgency or organisation. The best example was working towards this weeks presentation. It took me ages to figure out how to simply organsise the damn thing and it still didn't come out to standard and I'm hoping its enough to pass. In closing, I just have to read more and more, keep my eyes on the prize and don't mess it up., or try my best not to at least.
