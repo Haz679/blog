@@ -52,7 +52,11 @@ Unlike other studio's where the portfolio was maintained in a document format, w
 
  
 ## SLO 3 - Apply technical skills to develop, model and/or evaluate design
-Coming into the studio, my techincal skill was very little to almost nothing, especially in comparison to the guys from the Cyber Security Society. The way in which the studio went about teaching us was to simply guide us in the right direction to undergo our own research in vulnerabilities and exploiting them in order to build the foundation of breaking into vulnerable machines. Since I wasn't the only one in that position, we were first introduced to the basics via OvertheWire, a beginners platform for learning a gamified version of hacking. By week 3, we were tasked with reaching Bandit 30 and Natas 15, substantial enough to continue to further research.
+Coming into the studio, my techincal skill was very little to almost nothing, especially in comparison to the guys from the Cyber Security Society. The way in which the studio went about teaching us was to simply guide us in the right direction to undergo our own research in vulnerabilities and exploiting them in order to build the foundation of breaking into vulnerable machines. Since I wasn't the only one in that position, we were first introduced to the basics via OvertheWire, a beginners platform for learning a gamified version of hacking. By week 3, we were tasked with reaching Bandit 30 and Natas 15, substantial enough to continue to further research. Below are some of my handwritten notes:
+
+![](scan0011.png)
+
+![](scan0012.png)
 
 The conecept of breaking into boxes wasn't brought about until Darshil's demo of Pentester 1, a boot2root machine hosted on Vulnhub. That demo essentially secured the foundational mindset to the tools and avenues to take to traverse the box. From there, I continued to research walkthroughs of other Vulnhub boxes such as Matrix and Necromancer. From there, I pivoted to Hack the Box walkthroughs most notably by the Youtuber known as Ippsec. The boxes I looked at were Blocky and Popcorn, which were basic enough so that I could understand the methodology. The OWASP Juice Box was an extra vulnerable machine that was given to play around with to test where we were at with our knowledge.
  
