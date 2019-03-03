@@ -36,6 +36,13 @@ Ruben's talk focussed on reverse engineering using a tool called Binary Ninja. H
  ## SLO 2 - Apply design thinking to respond to a defined or newly identified problem
 Creative thinking is not only important in traversing a system but also demonstrating how you got into that system in the first place as well as the theory behind cyber security attack vectors. Throughout the studio we had to make several presentations. This was to improve our ability to educate our audience in a professional and creative manner and respond to an identified problem. They also ensure that our communication skills were up to scratch by the time the Final Expo came around. The presentations that we gave was on the OWASP top 10, John the Ripper as well as the final at the expo.
 
+ ![](owasp-pres.png)
+
+ ![](ripper-pres.png)
+
+ ![](expo-pres.png)
+
+
 This problem was in the form of a statement that we indiviudally articulated at the beginning of the studio. My initial draft of the statement wasn't taken very well as it was too broad and not defined properly. In response to the feedback I adjusted it to "How can we educate security staff in a corporate environment?". The design thinking undergone to satisfy this SLO is used to respond to this statement.
  
 Unlike other studio's where the portfolio was maintained in a document format, we developed our own statically generated websites where we would maintain blog posts of weekly sprints. This blog was a creative means of noting everything we did including how we were solving our problem statement as the weeks progressed.
@@ -44,14 +51,16 @@ Unlike other studio's where the portfolio was maintained in a document format, w
  ![](site.png)
 
  
- ## SLO 3 - Apply technical skills to develop, model and/or evaluate design
+## SLO 3 - Apply technical skills to develop, model and/or evaluate design
 Coming into the studio, my techincal skill was very little to almost nothing, especially in comparison to the guys from the Cyber Security Society. The way in which the studio went about teaching us was to simply guide us in the right direction to undergo our own research in vulnerabilities and exploiting them in order to build the foundation of breaking into vulnerable machines. Since I wasn't the only one in that position, we were first introduced to the basics via OvertheWire, a beginners platform for learning a gamified version of hacking. By week 3, we were tasked with reaching Bandit 30 and Natas 15, substantial enough to continue to further research.
 
-The conecept of breaking into boxes wasn't brought about until Darshil's demo of Pentester 1, a boot2root machine hosted on Vulnhub. That demo essentially secured the foundational mindset to the tools and avenues to take to traverse the box. From there, I continued to research walkthroughs of other Vulnhub boxes such as Matrix and Necromancer. From there, I pivoted to Hack the Box walkthroughs most notably by the Youtuber known as Ippsec. The boxes I looked at were Blocky and Popcorn, which were basic enough so that I could understand the methodology. The OWASP Juice Box was a vulnerable machine that was given to play around with to test where we were at with our knowledge.
+The conecept of breaking into boxes wasn't brought about until Darshil's demo of Pentester 1, a boot2root machine hosted on Vulnhub. That demo essentially secured the foundational mindset to the tools and avenues to take to traverse the box. From there, I continued to research walkthroughs of other Vulnhub boxes such as Matrix and Necromancer. From there, I pivoted to Hack the Box walkthroughs most notably by the Youtuber known as Ippsec. The boxes I looked at were Blocky and Popcorn, which were basic enough so that I could understand the methodology. The OWASP Juice Box was an extra vulnerable machine that was given to play around with to test where we were at with our knowledge.
  
  
 ## SLO 4 - Demonstrate effective collaboration and communication skills
 As a security professional, technical knowledge is only one side of the coin. The skill to communicate the impact of security issues on a business level is highly sought after. This was highlighted with great importance in the Studio through formal, high level writeups that mirror that seen in security certifications such as the OSCP. This industry skill is further highlighted in the Engineers Australia Competency Standard where a key skill of competent engineers is highly developed communication.
+
+![]()
  
 Another method of collaboration was the use of Microsoft Teams . This tool was introduced at the beginning of the Studio in order to connect that the entire class in a chatroom. It also allowed the creation of individual teams. Each team can take advantage of the planner which can be used to organise tasks and completion times.
 
@@ -87,4 +96,4 @@ The website that I had developed of the course of the Studio as quotoed by Larry
 Time management was a major issue for me during the Studio, unfortunately it hasn't improved all that much. I strive my best to do as much work in little time in order to maximise efficiency where I can. The intense nature helped with that and enforced good organisation to stay on top of a hectic workload in such a short period of time.
 
 # Reflective Statement
-The learning journey undergone over the Summer Studio has been second to none. As a group, we have had the profound opportunity to meet industry professionals that shared their insights to look at differing vulnerabilitie in Cyber Security. We have applied design thinking through the use of creative presentations and blog entries in order to solve our own problem statement, "How can educate security staff in a corporate environment". This was highlighted by covering topics such as the OWASP top 10 and tools such as John the Ripper. We have applied diligent self-learning alongside demonstrations to development the technical knowldge to begin rooting our first vulnerable machines. Collaboration and communication were incorporated via scrum and free-for-all sessions to share the learning journeys with others as the weeks progressed to help reevaluate our own methods of study. Finally, self and peer review  
+The learning journey undergone over the Summer Studio has been second to none. As a group, we have had the profound opportunity to meet industry professionals that shared their insights to look at differing vulnerabilitie in Cyber Security. We have applied design thinking through the use of creative presentations and blog entries in order to solve our own problem statement, "How can educate security staff in a corporate environment". This was highlighted by covering topics such as the OWASP top 10 and tools such as John the Ripper. We have applied diligent self-learning alongside demonstrations to development the technical knowldge to begin rooting our first vulnerable machines. Collaboration and communication were incorporated via scrum and free-for-all sessions to share the learning journeys with others as the weeks progressed to help reevaluate our own methods of study. Finally, self and peer review through the weekly scrums/free-for-alls as well as the feedback from the sprints allowed each of us to reevaluate our own progress and improve on our paths in developing our true "offensive mindset". 
