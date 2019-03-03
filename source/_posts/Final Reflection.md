@@ -57,7 +57,29 @@ One of the core components of the Studio was the Scrum and Free-for-all sessions
  
 
  
- ## SLO 5 - Conduct critical self and peer review and performance evaluation
- Self review is a core concept of this Summer Studio as it emphasises the progress made throughout. After each week, we are required to give an evaluation of our own performance, good or bad and give pointers on any possible imrovements.
+## SLO 5 - Conduct critical self and peer review and performance evaluation
+Self review is a core concept of this Summer Studio as it emphasises the progress made throughout. After each week, we are required to give an evaluation of our own performance, good or bad and give pointers on any possible imrovements.
  
- Similarly, we engaged in Scrum and Free-for-all sessions for peer review. This way we are able to compare the the progress of other students and from their be able to reevaluate our own. I feel these sessions really helped in doing so
+Similarly, we engaged in Scrum and Free-for-all sessions for peer review. This way we are able to compare the the progress of other students and from their be able to reevaluate our own. I feel these sessions really helped in doing so.
+ 
+# Conclusion
+In essence the Summer Studio has been an absolute roller coaster for me. However, possibly the some of the best time I've enjoyed at UTS thusfar. It meant striving towards the goals I had initially set for myself:
+
+- Clearer job path
+- Portfolio for future employment
+- In depth technical knowledge
+- Improved research skills
+- Insight from the CSEC members
+- Enhanced time management
+
+Whilst these weren't necessarily polished by the end of the Studio, they definitely saw improvement.
+
+The lack of knowledge in security at the start had be doubtful that such a path would interest me in the future. A further developed foundation has meant that I can comfortably perform basic enumeration and exploitation of a vulnerable system. This new found knowledge has given me the confidence and the courage to explore further opportunity for self-learning as well as heading into Cyber Security roles that require such knowledge as a basis for the application process.
+
+The website that I had developed of the course of the Studio as quotoed by Larry a "resume on steroids". It is most definitely the most valuable asset to be pulled away from the studio.
+
+Time management was a major issue for me during the Studio, unfortunately it hasn't improved all that much. I strive my best to do as much work in little time in order to maximise efficiency where I can. The intense nature helped with that and enforced good organisation to stay on top of a hectic workload in such a short period of time.
+
+# Reflective Statement
+The learning journey undergone over the Summer Studio has been second to none
+
