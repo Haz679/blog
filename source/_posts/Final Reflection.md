@@ -60,7 +60,7 @@ One of the core components of the Studio was the Scrum and Free-for-all sessions
 ## SLO 5 - Conduct critical self and peer review and performance evaluation
 Self review is a core concept of this Summer Studio as it emphasises the progress made throughout. After each week, we are required to give an evaluation of our own performance, good or bad and give pointers on any possible imrovements. We also benefit from the the weekly feedback given to us by our tutors. Each week, they will post the result of the previous week's submission followed by some feedback to help improve the submission for next week, below is an example of my feedback from sprint 3:
 
-![]()
+![](sprint3-feedback.png)
  
 Similarly, we engaged in Scrum and Free-for-all sessions for peer review. This way we are able to compare the the progress of other students and from their be able to reevaluate our own. I feel these sessions really helped in doing so.
  
