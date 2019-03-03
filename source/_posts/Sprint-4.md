@@ -5,6 +5,8 @@ title: Sprint 4
 # Reverse Engineering Guest Speaker
 We were fortunate enough to have Ruben from Symantec to give us a workshop on reverse engineering with binary ninja. He directed us to a website that had several challenges that we could attempt, each with increasing difficulty and thus complexity. The hardest part abou these challenges was definitely having no knowledge of reverse engineering whatsoever, so naturally, I had no idea as to what I was looking for. To make matters worse, Binary Ninja wasn't working on my mac due to the limited amount of RAM I have installed so I had to pair up with Pags, one of my colleagues to complete the challenge.
 
+![](rev-eng.png)
+
 It was very interesting to say the least, especially with how binary ninja worked to display what the cpu instructions looked like. The complexity of how low level information is traversed through the system is something that every tech student should know and understand. It's by far the means to reverse engineering (pun intended) the knowledge that is taught in the subject (at a high level) to gain a deeper understand of how a machine works. Essentially what I mean by that is, a student is taught what functions, methods and libraries are, however are practically oblivious to how the code is looked at in the background. I think you get the gist.
 
 Ruben also mentioned malware analysis in his talk, which definitely struck my attention.
