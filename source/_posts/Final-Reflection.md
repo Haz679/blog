@@ -27,9 +27,11 @@ Luke gave the studio a lecture on the XSS vulnerabilites in web application secu
 
 The Deloitte team offered an interactive aspect to their talk by inviting us to break a box that they have developed themselves known as Piper. At that time, I wasn't able to complete it as I wasn't comfortable with my skill level. Apart from that, they covered several vulnerabilities including social engineering, XSS, database vulnerabilities alongside a Red Teaming engagement.
 
-Ruben's talk focussed on reverse engineering using a tool called Binary Ninja. He didn't give a lecture per se but directed us to a website that hosted several challenges with increasing difficulty. These challenges would reveal certain software vulnerabilites to reveal the flag.
+Ruben's talk focussed on reverse engineering using a tool called Binary Ninja. He didn't give a lecture per se but directed us to a website that hosted several challenges with increasing difficulty. These challenges would reveal certain software vulnerabilites to reveal the flag. Below are my notes from the talk:
 
-INSERT NOTES HERE
+![](scan0013.png)
+
+![](scan0014.png)
 
  ## SLO 2 - Apply design thinking to respond to a defined or newly identified problem
 Creative thinking is not only important in traversing a system but also demonstrating how you got into that system in the first place as well as the theory behind cyber security attack vectors. Throughout the studio we had to make several presentations. This was to improve our ability to educate our audience in a professional and creative manner and respond to an identified problem. They also ensure that our communication skills were up to scratch by the time the Final Expo came around. The presentations that we gave was on the OWASP top 10, John the Ripper as well as the final at the expo.
