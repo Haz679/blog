@@ -2,7 +2,7 @@
 title: Final Reflection
 ---
 
-These past 4 weeks, I undertook the Summer Studio, Cyber Security an Offensive mindset. The Studio method was proposed a means too incorporate intensive self-learning, collaboration and research to reach the 5 learning outcomes as indicated below. This studio focussed on developing the 'offensive' from the security perspective. It introduced students to the ins and outs of the security world especially its lack in modern systems which was exemplified by the inclusion of industry professionals from well renowned firms. These professionals shared valuable experience and knowledge on a variety of topics, which allowed students to broaden their horizons.
+These past 4 weeks, I undertook the Summer Studio, Cyber Security an Offensive mindset. The Studio method was proposed a means too incorporate intensive self-learning, collaboration and research to reach the 5 learning outcomes as indicated below. This studio focused on developing the 'offensive' from the security perspective. It introduced students to the ins and outs of the security world especially its lack in modern systems which was exemplified by the inclusion of industry professionals from well renowned firms. These professionals shared valuable experience and knowledge on a variety of topics, which allowed students to broaden their horizons.
 
 I decided to take the subject as I believed it was a means to at least achieve a core foundation in the security industry. Previously I've attended several seminars hosted by the Cyber Security Society which were a useful introduction, however at that stage, my understanding wasn't entirely set in stone. Luckily, having a background in networking helped a lot in enumeration as I was able to understand basic addressing and protocols. At the beginning of the Studio, we had to come up with a list of objectives that we wanted to achieve by the end of the studio. These objectives were to ensure the work we put in would evolve into something that could be taken away, whether you passed or not. Mine were the followng: 
 
@@ -23,12 +23,13 @@ Week 4: Ruben Thijssen - Symmantec
 
 Rob stressed the notion of social engineering. Essentially, humans are the weakest link to a firms infrastructure. This is due to the fact that as emotional beings, we tend to fall quite easily for phishing attacks, which involves impersonating another entity in order to maliciously capture the details of the victim. An example he gave us was the ILOVEYOU email. 
 
-
 Luke gave the studio a lecture on the XSS vulnerabilites in web application security. He gave some background to such applications as well as explaining what XSS is and how it works. We had to research an XSS attack and common mitigation strategies. However, a common theme was the confusion between them and so he provided us with a neat diagram as displayed below:
 
 The Deloitte team offered an interactive aspect to their talk by inviting us to break a box that they have developed themselves known as Piper. At that time, I wasn't able to complete it as I wasn't comfortable with my skill level. Apart from that, they covered several vulnerabilities including social engineering, XSS, database vulnerabilities alongside a Red Teaming engagement.
 
 Ruben's talk focussed on reverse engineering using a tool called Binary Ninja. He didn't give a lecture per se but directed us to a website that hosted several challenges with increasing difficulty. These challenges would reveal certain software vulnerabilites to reveal the flag.
+
+INSERT NOTES HERE
 
  ## SLO 2 - Apply design thinking to respond to a defined or newly identified problem
 Creative thinking is not only important in traversing a system but also demonstrating how you got into that system in the first place as well as the theory behind cyber security attack vectors. Throughout the studio we had to make several presentations. This was to improve our ability to educate our audience in a professional and creative manner and respond to an identified problem. They also ensure that our communication skills were up to scratch by the time the Final Expo came around. The presentations that we gave was on the OWASP top 10, John the Ripper as well as the final at the expo.
@@ -38,7 +39,7 @@ This problem was in the form of a statement that we indiviudally articulated at 
 Unlike other studio's where the portfolio was maintained in a document format, we developed our own statically generated websites where we would maintain blog posts of weekly sprints. This blog was a creative means of noting everything we did including how we were solving our problem statement as the weeks progressed.
 
 
- 
+ ![]()
 
  
  ## SLO 3 - Apply technical skills to develop, model and/or evaluate design
