@@ -53,6 +53,8 @@ As a security professional, technical knowledge is only one side of the coin. Th
  
 Another method of collaboration was the use of Microsoft Teams . This tool was introduced at the beginning of the Studio in order to connect that the entire class in a chatroom. It also allowed the creation of individual teams. Each team can take advantage of the planner which can be used to organise tasks and completion times.
 
+![](teams.png)
+
 One of the core components of the Studio was the Scrum and Free-for-all sessions. During these sessions we would communicate with different members of the class and ask each other about the work we've undertaken since the previous session as well as any challenges that faced, how we overcame them and what to expect in the future. This was a valuable means of collaboration as it allowed the perspectives of others to be shared. Many students I felt at some point would've experienced some degree of imposter syndrome, where they feel that their skill is far inferior to that of their peers. These sessions would've helped to calm the nerves and reinforce the notion that the majority started from nothing, as seen at the very start.
  
 
