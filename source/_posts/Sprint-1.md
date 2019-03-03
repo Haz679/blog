@@ -2,7 +2,7 @@
 title: Sprint 1
 ---
 
-![](pose.png)
+![Cover photo](pose.png)
 
 Hi, my name is Harry Louskos and I’m currently taking 41151 Summer Studio - Cybersecurity: An Offensive Mindset. I’m enrolled in the BSCiT course as a final year majoring in Internetworking and Applications submajoring in Network Security. Whilst my interests are not entirely within computers, I do find myself leaning towards the networking field as provides a means of developing a physical and software-based system that, when they break are quite enjoyable to fix. In terms of security, wireless and web app hacking seem to draw my attention the most as whilst it creates an outlet to challenge my problem solving and creativity, they are also the some the most enjoyable to break.
 
