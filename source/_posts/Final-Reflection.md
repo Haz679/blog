@@ -60,7 +60,7 @@ The conecept of breaking into boxes wasn't brought about until Darshil's demo of
 ## SLO 4 - Demonstrate effective collaboration and communication skills
 As a security professional, technical knowledge is only one side of the coin. The skill to communicate the impact of security issues on a business level is highly sought after. This was highlighted with great importance in the Studio through formal, high level writeups that mirror that seen in security certifications such as the OSCP. This industry skill is further highlighted in the Engineers Australia Competency Standard where a key skill of competent engineers is highly developed communication.
 
-![]()
+![](engineers-aus.png)
  
 Another method of collaboration was the use of Microsoft Teams . This tool was introduced at the beginning of the Studio in order to connect that the entire class in a chatroom. It also allowed the creation of individual teams. Each team can take advantage of the planner which can be used to organise tasks and completion times.
 
