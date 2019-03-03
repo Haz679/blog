@@ -95,7 +95,7 @@ Whilst these weren't necessarily polished by the end of the Studio, they definit
 
 The lack of knowledge in security at the start had be doubtful that such a path would interest me in the future. A further developed foundation has meant that I can comfortably perform basic enumeration and exploitation of a vulnerable system. This new found knowledge has given me the confidence and the courage to explore further opportunity for self-learning as well as heading into Cyber Security roles that require such knowledge as a basis for the application process.
 
-The website that I had developed of the course of the Studio as quotoed by Larry a "resume on steroids". It is most definitely the most valuable asset to be pulled away from the studio.
+The website that I had developed of the course of the Studio as quoted by Larry a "resume on steroids". It is most definitely the most valuable asset to be pulled away from the studio.
 
 Time management was a major issue for me during the Studio, unfortunately it hasn't improved all that much. I strive my best to do as much work in little time in order to maximise efficiency where I can. The intense nature helped with that and enforced good organisation to stay on top of a hectic workload in such a short period of time.
 
