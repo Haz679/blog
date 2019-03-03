@@ -19,7 +19,7 @@ Throughout the studio, we have had the opportunity for industry professionals to
 - Week 1: Rob Mitchell - Gitlab
 - Week 2: Luke Fuehrer - UTS CSEC - Security Consultant
 - Week 3: Deloitte Cyber Security Team
-- Week 4: Ruben Thijssen - Symmantec
+- Week 4: Ruben Thijssen - Symantec
 
 Rob stressed the notion of social engineering. Essentially, humans are the weakest link to a firms infrastructure. This is due to the fact that as emotional beings, we tend to fall quite easily for phishing attacks, which involves impersonating another entity in order to maliciously capture the details of the victim. An example he gave us was the ILOVEYOU email. 
 
