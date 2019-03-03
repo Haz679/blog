@@ -13,5 +13,20 @@ I decided to take the subject as I believed it was a means to st least achieve a
 - Insight from the CSEC members
 - Enhanced time management
 
-SLO 1 - Engage with stakeholders to identify a problem
-Throughout the studio, we have had the opportunity 
+## SLO 1 - Engage with stakeholders to identify a problem
+Throughout the studio, we have had the opportunity for industry professionals to give a talk on particular topic. The topic is aimed at identifying a particulat issue in cyber security whether it be technical or human-oriented. The following is a list of the professionals that graced us with their presence:
+
+Week 1: Rob Mitchell - Gitlab
+Week 2: Luke Fuehrer - UTS CSEC - Security Consultant
+Week 3: Deloitte Cyber Security Team
+Week 4: Ruben Thijssen - Symmantec
+
+Rob stressed the notion of social engineering. Essentially, humans are the weakest link to a firms infrastructure. This is due to the fact that as emotional beings, we tend to fall quite easily for phishing attacks, which involves impersonating another entity in order to maliciously capture the details of the victim. An example he gave us was the ILOVEYOU email. 
+
+
+Luke gave the studio a lecture on the XSS vulnerabilites in web application security. He gave some background to such applications as well as explaining what XSS is and how it works. We had to research an XSS attack and common mitigation strategies. However, a common theme was the confusion between them and so he provided us with a neat diagram as displayed below:
+
+The Deloitte team offered an interactive aspect to their talk by inviting us to break a box that they have developed themselves known as Piper. At that time, I wasn't able to complete as I wasn't comfortable with my skill level. Apart from that, they covered several vulnerabilities including social engineering, XSS, database vulnerabilities alongside a Red Teaming engagement.
+
+Ruben's talk focussed on reverse engineeing using a tool called Binary Ninja. He didn't givee a lecture per se but directed us to a website that hosted several challenges with increasing difficulty. These challenges would reveal certain software vulnerabilites to reveal the flag.
+
