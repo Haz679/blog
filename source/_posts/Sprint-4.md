@@ -34,6 +34,13 @@ The /invite/ page is actually a vulnerable login form that needs to be exploited
 
 ...and there you have it
 
+I was able to get root on Curling, however since it is currently an active box, writeup is to be announced!!
 
+# Final Expo
+On the last Friday, all the Summer Studio students banded together to put on an expo to showcase their work over the 4 weeks. From 12pm to 1pm, we had a pizza lunch before speeches from the head organisers as well as the subject leaders. The expo was located all over Building 11, with each studio having their own room to display their work.
+
+Our setup wasn't as organised as I'd wish, however we managed to impress where we could. Unfortunately, I didn't get the opportunity to present, however I was able to go to a different studio (Neural Networks) to see the progress of other students and of their stuff is cool to say the least. One team was developed an algorithm to identify the percentage of a certain cat you are. Another group developed a scanner to calculate the amount of white blood cells in your bloodstream.
+
+To finish up, it was awesome to see what the other studios have done and I'm escpecially proud of everyone in our studio.  
 
 
