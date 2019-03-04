@@ -39,10 +39,13 @@ https://imgur.com/NsqnJeo
 Creative thinking is not only important in traversing a system but also demonstrating how you got into that system in the first place as well as the theory behind cyber security attack vectors. Throughout the studio we had to make several presentations. This was to improve our ability to educate our audience in a professional and creative manner and respond to an identified problem. They also ensure that our communication skills were up to scratch by the time the Final Expo came around. The presentations that we gave was on the OWASP top 10, John the Ripper as well as the final at the expo.
 
  ![](owasp-pres.png)
+ https://imgur.com/3k8V2W0
 
  ![](ripper-pres.png)
+ https://imgur.com/0z7tMpZ
 
  ![](expo-pres.png)
+ https://imgur.com/GzNPI54
 
 
 This problem was in the form of a statement that we indiviudally articulated at the beginning of the studio. My initial draft of the statement wasn't taken very well as it was too broad and not defined properly. In response to the feedback I adjusted it to "How can we educate security staff in a corporate environment?". The design thinking undergone to satisfy this SLO is used to respond to this statement.
@@ -51,6 +54,7 @@ Unlike other studio's where the portfolio was maintained in a document format, w
 
 
  ![](site.png)
+ https://imgur.com/d3FVbc9
 
  
 ## SLO 3 - Apply technical skills to develop, model and/or evaluate design
