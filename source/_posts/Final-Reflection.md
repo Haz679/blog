@@ -30,8 +30,10 @@ The Deloitte team offered an interactive aspect to their talk by inviting us to 
 Ruben's talk focussed on reverse engineering using a tool called Binary Ninja. He didn't give a lecture per se but directed us to a website that hosted several challenges with increasing difficulty. These challenges would reveal certain software vulnerabilites to reveal the flag. Below are my notes from the talk:
 
 ![](scan0013.png)
+https://imgur.com/JUzxK25
 
 ![](scan0014.png)
+https://imgur.com/NsqnJeo
 
  ## SLO 2 - Apply design thinking to respond to a defined or newly identified problem
 Creative thinking is not only important in traversing a system but also demonstrating how you got into that system in the first place as well as the theory behind cyber security attack vectors. Throughout the studio we had to make several presentations. This was to improve our ability to educate our audience in a professional and creative manner and respond to an identified problem. They also ensure that our communication skills were up to scratch by the time the Final Expo came around. The presentations that we gave was on the OWASP top 10, John the Ripper as well as the final at the expo.
@@ -55,8 +57,10 @@ Unlike other studio's where the portfolio was maintained in a document format, w
 Coming into the studio, my techincal skill was very little to almost nothing, especially in comparison to the guys from the Cyber Security Society. The way in which the studio went about teaching us was to simply guide us in the right direction to undergo our own research in vulnerabilities and exploiting them in order to build the foundation of breaking into vulnerable machines. Since I wasn't the only one in that position, we were first introduced to the basics via OvertheWire, a beginners platform for learning a gamified version of hacking. By week 3, we were tasked with reaching Bandit 30 and Natas 15, substantial enough to continue to further research. Below are some of my handwritten notes:
 
 ![](scan0011.png)
+https://imgur.com/WRmxoEp
 
 ![](scan0012.png)
+https://imgur.com/MAKa5yN
 
 The conecept of breaking into boxes wasn't brought about until Darshil's demo of Pentester 1, a boot2root machine hosted on Vulnhub. That demo essentially secured the foundational mindset to the tools and avenues to take to traverse the box. From there, I continued to research walkthroughs of other Vulnhub boxes such as Matrix and Necromancer. From there, I pivoted to Hack the Box walkthroughs most notably by the Youtuber known as Ippsec. The boxes I looked at were Blocky and Popcorn, which were basic enough so that I could understand the methodology. The OWASP Juice Box was an extra vulnerable machine that was given to play around with to test where we were at with our knowledge.
  
@@ -65,10 +69,12 @@ The conecept of breaking into boxes wasn't brought about until Darshil's demo of
 As a security professional, technical knowledge is only one side of the coin. The skill to communicate the impact of security issues on a business level is highly sought after. This was highlighted with great importance in the Studio through formal, high level writeups that mirror that seen in security certifications such as the OSCP. This industry skill is further highlighted in the Engineers Australia Competency Standard where a key skill of competent engineers is highly developed communication.
 
 ![](engineers-aus.png)
+https://imgur.com/TYYAaAt
  
 Another method of collaboration was the use of Microsoft Teams . This tool was introduced at the beginning of the Studio in order to connect that the entire class in a chatroom. It also allowed the creation of individual teams. Each team can take advantage of the planner which can be used to organise tasks and completion times.
 
 ![](teams.png)
+https://imgur.com/qmJKvMR
 
 One of the core components of the Studio was the Scrum and Free-for-all sessions. During these sessions we would communicate with different members of the class and ask each other about the work we've undertaken since the previous session as well as any challenges that faced, how we overcame them and what to expect in the future. This was a valuable means of collaboration as it allowed the perspectives of others to be shared. Many students I felt at some point would've experienced some degree of imposter syndrome, where they feel that their skill is far inferior to that of their peers. These sessions would've helped to calm the nerves and reinforce the notion that the majority started from nothing, as seen at the very start.
  
@@ -78,6 +84,7 @@ One of the core components of the Studio was the Scrum and Free-for-all sessions
 Self review is a core concept of this Summer Studio as it emphasises the progress made throughout. After each week, we are required to give an evaluation of our own performance, good or bad and give pointers on any possible imrovements. We also benefit from the the weekly feedback given to us by our tutors. Each week, they will post the result of the previous week's submission followed by some feedback to help improve the submission for next week, below is an example of my feedback from sprint 3:
 
 ![](sprint3-feedback.png)
+ https://imgur.com/F4yEvuB
  
 Similarly, we engaged in Scrum and Free-for-all sessions for peer review. This way we are able to compare the the progress of other students and from their be able to reevaluate our own. I feel these sessions really helped in doing so.
  
